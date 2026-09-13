@@ -1,4 +1,3 @@
-完整全部README.md，直接全选复制覆盖编辑器里所有旧内容
 # fastapi‑rag‑backend
 基于FastAPI实现的RAG知识库问答后端接口服务，接收HTTP POST请求，完成文档召回与大模型问答，返回JSON结果。
 

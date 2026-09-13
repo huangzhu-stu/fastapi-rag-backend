@@ -46,20 +46,3 @@ curl -X 'POST' \
 2. 把上面整段粘贴进去
 3. 滑到底点绿色 Commit changes
 4. 点Preview预览看效果，排版正常就完事。
-
-完成后你的两个项目：
-1. local‑rag‑demo：Streamlit可视化RAG网页
-2. fastapi‑rag‑backend：RAG后端API服务
-
-简历两段：
-**本地知识库RAG问答系统（Streamlit）**
-- 基于Python、Streamlit、Qdrant、Ollama搭建可视化RAG知识库问答系统
-- 支持PDF/TXT文档上传解析、文本分块、向量入库，网页端完成私有知识库问答
-- 通过Prompt约束缓解大模型幻觉，向量库支持内存与磁盘持久化两种模式
-- GitHub：https://github.com/huangzhu‑stu/local‑rag‑demo
-
-**基于FastAPI的RAG问答后端接口**
-- 使用FastAPI+Uvicorn搭建RAG后端HTTP服务，实现`/rag/chat`问答接口
-- 对接Qdrant向量库完成Top‑K文档召回，调用Ollama本地大模型生成回答
-- 接收POST JSON请求，返回结构化问答结果，支持curl调用调试
-- GitHub：https://github.com/huangzhu‑stu/fastapi‑rag‑backend
